@@ -20,6 +20,7 @@ import static com.android.launcher3.Flags.enableScalingRevealHomeAnimation;
 import static com.android.launcher3.logging.StatsLogManager.LAUNCHER_STATE_ALLAPPS;
 
 import android.content.Context;
+import android.graphics.Color;
 
 import com.android.internal.jank.Cuj;
 import com.android.launcher3.DeviceProfile;
@@ -217,8 +218,6 @@ public class AllAppsState extends LauncherState {
 
     @Override
     public int getWorkspaceScrimColor(Launcher launcher) {
-        return launcher.getDeviceProfile().isTablet 
-            ? launcher.getResources().getColor(android.R.color.transparent) 
-            : LawnchairUtilsKt.getAllAppsScrimColor(launcher);
+        return Color.GRAY;
     }
 }
