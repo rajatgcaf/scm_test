@@ -1,7 +1,7 @@
 > [!TIP]
 > For the story behind this release, see [the announcement](https://lawnchair.app/blog/lawnchair-15-beta-1) on our website.
 
-Lawnchair 15 Beta 1 is a foundational release based on Launcher3 from Android 15. This version works with QuickSwitch from Android 10 to Android 15 QPR1. Higher Android versions are not yet supported.
+Lawnchair 15 Beta 2 is a foundational release based on Launcher3 from Android 15. This version works with QuickSwitch from Android 10 to Android 15 QPR1. Higher Android versions are not yet supported.
 
 ### New Features
 *   **Android 15 Support:** Includes core platform features like Private Space and App Archiving.
